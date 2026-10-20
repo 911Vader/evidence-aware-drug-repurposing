@@ -1,0 +1,21 @@
+=== Run: random_adaptive_seed2 ===
+Loading data/processed/graph.pt ...
+num_nodes=47031  disease_pool_size=137
+split=random  train_edges=604  test_edges=151
+  epoch   1/50  loss=0.6968  elapsed=5.5s
+  epoch   5/50  loss=0.6336  elapsed=21.5s
+  epoch  10/50  loss=0.5739  elapsed=40.4s
+  epoch  15/50  loss=0.5217  elapsed=59.9s
+  epoch  20/50  loss=0.5285  elapsed=78.9s
+  epoch  25/50  loss=0.4843  elapsed=97.5s
+  epoch  30/50  loss=0.4874  elapsed=117.1s
+  epoch  35/50  loss=0.4852  elapsed=135.3s
+  epoch  40/50  loss=0.4806  elapsed=153.5s
+  epoch  45/50  loss=0.4647  elapsed=171.4s
+  epoch  50/50  loss=0.4804  elapsed=190.0s
+Training done in 190.0s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS random_adaptive_seed2: {"auroc": 0.8923672684914391, "auprc": 0.1560148364870632, "n_eval": 151, "avg_candidates": 133.19205298013244, "hits@1": 0.271523178807947, "hits@3": 0.5099337748344371, "hits@10": 0.8278145695364238}
+  learned gate: a=0.3756 b=0.0554 (g=0.5 at degree=-0.1)
+Saved results to results/random_adaptive_seed2.json
+Saved loss curve to figures/random_adaptive_seed2_loss.png

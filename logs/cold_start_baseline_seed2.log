@@ -1,0 +1,21 @@
+=== Run: cold_start_baseline_seed2 ===
+Loading data/processed/graph.pt ...
+num_nodes=47031  disease_pool_size=137
+split=cold_start  train_edges=551  test_edges=204
+  held-out compounds: 77
+  epoch   1/50  loss=0.7025  elapsed=4.7s
+  epoch   5/50  loss=0.5936  elapsed=19.2s
+  epoch  10/50  loss=0.5899  elapsed=35.8s
+  epoch  15/50  loss=0.5718  elapsed=53.5s
+  epoch  20/50  loss=0.5212  elapsed=69.8s
+  epoch  25/50  loss=0.4946  elapsed=86.0s
+  epoch  30/50  loss=0.4861  elapsed=102.5s
+  epoch  35/50  loss=0.4841  elapsed=118.7s
+  epoch  40/50  loss=0.4633  elapsed=136.6s
+  epoch  45/50  loss=0.4511  elapsed=153.7s
+  epoch  50/50  loss=0.4586  elapsed=171.7s
+Training done in 171.7s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS cold_start_baseline_seed2: {"auroc": 0.8554988773629522, "auprc": 0.09294283790297932, "n_eval": 204, "avg_candidates": 131.48039215686273, "hits@1": 0.17647058823529413, "hits@3": 0.37745098039215685, "hits@10": 0.6176470588235294}
+Saved results to results/cold_start_baseline_seed2.json
+Saved loss curve to figures/cold_start_baseline_seed2_loss.png

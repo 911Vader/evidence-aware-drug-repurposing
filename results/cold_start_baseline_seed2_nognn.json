@@ -1,0 +1,1515 @@
+{
+  "run_name": "cold_start_baseline_seed2_nognn",
+  "split": "cold_start",
+  "variant": "baseline",
+  "seed": 2,
+  "toy": false,
+  "hyperparams": {
+    "epochs": 50,
+    "lr": 0.01,
+    "embed_dim": 32,
+    "hidden_dim": 32,
+    "num_layers": 0,
+    "fp_proj_dim": null,
+    "weight_decay": 1e-05,
+    "seed": 2
+  },
+  "data_stats": {
+    "num_nodes": 47031,
+    "train_edges": 551,
+    "test_edges": 204
+  },
+  "gate_params": null,
+  "train_time_sec": 0.8538539409637451,
+  "loss_history": [
+    0.6931461095809937,
+    0.6928158402442932,
+    0.6919827461242676,
+    0.690532386302948,
+    0.688301682472229,
+    0.6852394342422485,
+    0.6816388368606567,
+    0.6767326593399048,
+    0.6707502007484436,
+    0.6639494299888611,
+    0.6554348468780518,
+    0.6468182802200317,
+    0.6373397707939148,
+    0.6251473426818848,
+    0.6126214861869812,
+    0.5975674390792847,
+    0.5835081338882446,
+    0.5672200918197632,
+    0.552800714969635,
+    0.5329675078392029,
+    0.518353283405304,
+    0.5015415549278259,
+    0.4821239113807678,
+    0.4687076807022095,
+    0.4461056590080261,
+    0.4332055449485779,
+    0.4090743064880371,
+    0.4001447558403015,
+    0.3810579776763916,
+    0.37396398186683655,
+    0.3550713360309601,
+    0.34774482250213623,
+    0.3365410268306732,
+    0.32321897149086,
+    0.3273523151874542,
+    0.31923356652259827,
+    0.28984180092811584,
+    0.2829481065273285,
+    0.28618767857551575,
+    0.27080756425857544,
+    0.2680668532848358,
+    0.2399739772081375,
+    0.24778008460998535,
+    0.2498188316822052,
+    0.23419824242591858,
+    0.22345606982707977,
+    0.22137115895748138,
+    0.20405228435993195,
+    0.20937415957450867,
+    0.1908356100320816
+  ],
+  "metrics": {
+    "auroc": 0.5160741883348876,
+    "auprc": 0.01568983814779416,
+    "n_eval": 204,
+    "avg_candidates": 131.48039215686273,
+    "hits@1": 0.04411764705882353,
+    "hits@3": 0.09313725490196079,
+    "hits@10": 0.18627450980392157
+  },
+  "per_edge": [
+    {
+      "compound": 13266,
+      "disease": 14739,
+      "degree": 214.0,
+      "rank": 8,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13349,
+      "disease": 14810,
+      "degree": 108.0,
+      "rank": 124,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13595,
+      "disease": 14791,
+      "degree": 389.0,
+      "rank": 136,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13658,
+      "disease": 14847,
+      "degree": 281.0,
+      "rank": 10,
+      "n_candidates": 126
+    },
+    {
+      "compound": 14654,
+      "disease": 14824,
+      "degree": 546.0,
+      "rank": 93,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13603,
+      "disease": 14854,
+      "degree": 501.0,
+      "rank": 4,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13778,
+      "disease": 14827,
+      "degree": 313.0,
+      "rank": 16,
+      "n_candidates": 130
+    },
+    {
+      "compound": 13603,
+      "disease": 14773,
+      "degree": 501.0,
+      "rank": 119,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13349,
+      "disease": 14793,
+      "degree": 108.0,
+      "rank": 122,
+      "n_candidates": 132
+    },
+    {
+      "compound": 14287,
+      "disease": 14804,
+      "degree": 169.0,
+      "rank": 7,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13304,
+      "disease": 14847,
+      "degree": 450.0,
+      "rank": 13,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13581,
+      "disease": 14804,
+      "degree": 446.0,
+      "rank": 14,
+      "n_candidates": 131
+    },
+    {
+      "compound": 13492,
+      "disease": 14804,
+      "degree": 658.0,
+      "rank": 126,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14252,
+      "disease": 14853,
+      "degree": 681.0,
+      "rank": 34,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13726,
+      "disease": 14825,
+      "degree": 644.0,
+      "rank": 105,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13490,
+      "disease": 14790,
+      "degree": 710.0,
+      "rank": 6,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13987,
+      "disease": 14841,
+      "degree": 276.0,
+      "rank": 104,
+      "n_candidates": 128
+    },
+    {
+      "compound": 14200,
+      "disease": 14804,
+      "degree": 331.0,
+      "rank": 25,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13603,
+      "disease": 14802,
+      "degree": 501.0,
+      "rank": 9,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13830,
+      "disease": 14847,
+      "degree": 28.0,
+      "rank": 117,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13800,
+      "disease": 14763,
+      "degree": 51.0,
+      "rank": 27,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13603,
+      "disease": 14784,
+      "degree": 501.0,
+      "rank": 67,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13286,
+      "disease": 14739,
+      "degree": 1.0,
+      "rank": 1,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13726,
+      "disease": 14850,
+      "degree": 644.0,
+      "rank": 29,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13689,
+      "disease": 14807,
+      "degree": 42.0,
+      "rank": 135,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14361,
+      "disease": 14807,
+      "degree": 121.0,
+      "rank": 1,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13897,
+      "disease": 14815,
+      "degree": 603.0,
+      "rank": 31,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14654,
+      "disease": 14793,
+      "degree": 546.0,
+      "rank": 27,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13603,
+      "disease": 14736,
+      "degree": 501.0,
+      "rank": 9,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13490,
+      "disease": 14804,
+      "degree": 710.0,
+      "rank": 24,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13450,
+      "disease": 14788,
+      "degree": 559.0,
+      "rank": 14,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13778,
+      "disease": 14842,
+      "degree": 313.0,
+      "rank": 128,
+      "n_candidates": 130
+    },
+    {
+      "compound": 13490,
+      "disease": 14784,
+      "degree": 710.0,
+      "rank": 51,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13581,
+      "disease": 14747,
+      "degree": 446.0,
+      "rank": 15,
+      "n_candidates": 131
+    },
+    {
+      "compound": 13349,
+      "disease": 14809,
+      "degree": 108.0,
+      "rank": 120,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13986,
+      "disease": 14784,
+      "degree": 23.0,
+      "rank": 3,
+      "n_candidates": 129
+    },
+    {
+      "compound": 14032,
+      "disease": 14758,
+      "degree": 135.0,
+      "rank": 69,
+      "n_candidates": 134
+    },
+    {
+      "compound": 14650,
+      "disease": 14784,
+      "degree": 10.0,
+      "rank": 131,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13729,
+      "disease": 14739,
+      "degree": 15.0,
+      "rank": 11,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13658,
+      "disease": 14841,
+      "degree": 281.0,
+      "rank": 3,
+      "n_candidates": 126
+    },
+    {
+      "compound": 13778,
+      "disease": 14807,
+      "degree": 313.0,
+      "rank": 25,
+      "n_candidates": 130
+    },
+    {
+      "compound": 13658,
+      "disease": 14815,
+      "degree": 281.0,
+      "rank": 1,
+      "n_candidates": 126
+    },
+    {
+      "compound": 13490,
+      "disease": 14773,
+      "degree": 710.0,
+      "rank": 50,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13935,
+      "disease": 14785,
+      "degree": 136.0,
+      "rank": 131,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13931,
+      "disease": 14839,
+      "degree": 109.0,
+      "rank": 109,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13603,
+      "disease": 14850,
+      "degree": 501.0,
+      "rank": 90,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13349,
+      "disease": 14824,
+      "degree": 108.0,
+      "rank": 112,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13581,
+      "disease": 14806,
+      "degree": 446.0,
+      "rank": 3,
+      "n_candidates": 131
+    },
+    {
+      "compound": 13987,
+      "disease": 14842,
+      "degree": 276.0,
+      "rank": 108,
+      "n_candidates": 128
+    },
+    {
+      "compound": 14041,
+      "disease": 14848,
+      "degree": 42.0,
+      "rank": 102,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13417,
+      "disease": 14804,
+      "degree": 392.0,
+      "rank": 125,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13778,
+      "disease": 14815,
+      "degree": 313.0,
+      "rank": 14,
+      "n_candidates": 130
+    },
+    {
+      "compound": 14032,
+      "disease": 14804,
+      "degree": 135.0,
+      "rank": 52,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13993,
+      "disease": 14818,
+      "degree": 220.0,
+      "rank": 125,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13287,
+      "disease": 14794,
+      "degree": 352.0,
+      "rank": 103,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13332,
+      "disease": 14791,
+      "degree": 570.0,
+      "rank": 115,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13986,
+      "disease": 14821,
+      "degree": 23.0,
+      "rank": 48,
+      "n_candidates": 129
+    },
+    {
+      "compound": 13987,
+      "disease": 14853,
+      "degree": 276.0,
+      "rank": 104,
+      "n_candidates": 128
+    },
+    {
+      "compound": 13986,
+      "disease": 14799,
+      "degree": 23.0,
+      "rank": 129,
+      "n_candidates": 129
+    },
+    {
+      "compound": 13977,
+      "disease": 14791,
+      "degree": 270.0,
+      "rank": 26,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14252,
+      "disease": 14854,
+      "degree": 681.0,
+      "rank": 28,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14252,
+      "disease": 14841,
+      "degree": 681.0,
+      "rank": 38,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13658,
+      "disease": 14854,
+      "degree": 281.0,
+      "rank": 77,
+      "n_candidates": 126
+    },
+    {
+      "compound": 13517,
+      "disease": 14807,
+      "degree": 143.0,
+      "rank": 36,
+      "n_candidates": 135
+    },
+    {
+      "compound": 14004,
+      "disease": 14735,
+      "degree": 191.0,
+      "rank": 5,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13726,
+      "disease": 14854,
+      "degree": 644.0,
+      "rank": 64,
+      "n_candidates": 135
+    },
+    {
+      "compound": 14248,
+      "disease": 14773,
+      "degree": 658.0,
+      "rank": 127,
+      "n_candidates": 134
+    },
+    {
+      "compound": 14219,
+      "disease": 14857,
+      "degree": 218.0,
+      "rank": 99,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13697,
+      "disease": 14728,
+      "degree": 241.0,
+      "rank": 7,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13658,
+      "disease": 14842,
+      "degree": 281.0,
+      "rank": 32,
+      "n_candidates": 126
+    },
+    {
+      "compound": 14032,
+      "disease": 14771,
+      "degree": 135.0,
+      "rank": 117,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13986,
+      "disease": 14830,
+      "degree": 23.0,
+      "rank": 27,
+      "n_candidates": 129
+    },
+    {
+      "compound": 13490,
+      "disease": 14745,
+      "degree": 710.0,
+      "rank": 1,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13492,
+      "disease": 14841,
+      "degree": 658.0,
+      "rank": 99,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13658,
+      "disease": 14804,
+      "degree": 281.0,
+      "rank": 126,
+      "n_candidates": 126
+    },
+    {
+      "compound": 14222,
+      "disease": 14739,
+      "degree": 118.0,
+      "rank": 117,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13987,
+      "disease": 14815,
+      "degree": 276.0,
+      "rank": 108,
+      "n_candidates": 128
+    },
+    {
+      "compound": 14360,
+      "disease": 14807,
+      "degree": 120.0,
+      "rank": 85,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13746,
+      "disease": 14797,
+      "degree": 246.0,
+      "rank": 118,
+      "n_candidates": 136
+    },
+    {
+      "compound": 14360,
+      "disease": 14812,
+      "degree": 120.0,
+      "rank": 129,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13603,
+      "disease": 14823,
+      "degree": 501.0,
+      "rank": 111,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13304,
+      "disease": 14848,
+      "degree": 450.0,
+      "rank": 22,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13603,
+      "disease": 14804,
+      "degree": 501.0,
+      "rank": 11,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13450,
+      "disease": 14806,
+      "degree": 559.0,
+      "rank": 10,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13835,
+      "disease": 14739,
+      "degree": 59.0,
+      "rank": 137,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13658,
+      "disease": 14827,
+      "degree": 281.0,
+      "rank": 1,
+      "n_candidates": 126
+    },
+    {
+      "compound": 13603,
+      "disease": 14810,
+      "degree": 501.0,
+      "rank": 96,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13490,
+      "disease": 14806,
+      "degree": 710.0,
+      "rank": 13,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13658,
+      "disease": 14850,
+      "degree": 281.0,
+      "rank": 1,
+      "n_candidates": 126
+    },
+    {
+      "compound": 13986,
+      "disease": 14803,
+      "degree": 23.0,
+      "rank": 6,
+      "n_candidates": 129
+    },
+    {
+      "compound": 13526,
+      "disease": 14804,
+      "degree": 516.0,
+      "rank": 9,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13492,
+      "disease": 14853,
+      "degree": 658.0,
+      "rank": 115,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13665,
+      "disease": 14818,
+      "degree": 195.0,
+      "rank": 94,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13603,
+      "disease": 14853,
+      "degree": 501.0,
+      "rank": 15,
+      "n_candidates": 119
+    },
+    {
+      "compound": 14033,
+      "disease": 14784,
+      "degree": 180.0,
+      "rank": 133,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13986,
+      "disease": 14810,
+      "degree": 23.0,
+      "rank": 18,
+      "n_candidates": 129
+    },
+    {
+      "compound": 14200,
+      "disease": 14809,
+      "degree": 331.0,
+      "rank": 70,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13603,
+      "disease": 14825,
+      "degree": 501.0,
+      "rank": 6,
+      "n_candidates": 119
+    },
+    {
+      "compound": 14010,
+      "disease": 14807,
+      "degree": 206.0,
+      "rank": 109,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13986,
+      "disease": 14745,
+      "degree": 23.0,
+      "rank": 6,
+      "n_candidates": 129
+    },
+    {
+      "compound": 13492,
+      "disease": 14827,
+      "degree": 658.0,
+      "rank": 2,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14004,
+      "disease": 14749,
+      "degree": 191.0,
+      "rank": 59,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13987,
+      "disease": 14807,
+      "degree": 276.0,
+      "rank": 93,
+      "n_candidates": 128
+    },
+    {
+      "compound": 13812,
+      "disease": 14791,
+      "degree": 346.0,
+      "rank": 130,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13830,
+      "disease": 14848,
+      "degree": 28.0,
+      "rank": 103,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13492,
+      "disease": 14850,
+      "degree": 658.0,
+      "rank": 108,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13603,
+      "disease": 14841,
+      "degree": 501.0,
+      "rank": 24,
+      "n_candidates": 119
+    },
+    {
+      "compound": 14215,
+      "disease": 14735,
+      "degree": 84.0,
+      "rank": 83,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14200,
+      "disease": 14810,
+      "degree": 331.0,
+      "rank": 114,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13592,
+      "disease": 14804,
+      "degree": 190.0,
+      "rank": 18,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13349,
+      "disease": 14730,
+      "degree": 108.0,
+      "rank": 25,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13834,
+      "disease": 14850,
+      "degree": 51.0,
+      "rank": 12,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13603,
+      "disease": 14730,
+      "degree": 501.0,
+      "rank": 16,
+      "n_candidates": 119
+    },
+    {
+      "compound": 14283,
+      "disease": 14790,
+      "degree": 539.0,
+      "rank": 4,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13986,
+      "disease": 14771,
+      "degree": 23.0,
+      "rank": 127,
+      "n_candidates": 129
+    },
+    {
+      "compound": 14252,
+      "disease": 14807,
+      "degree": 681.0,
+      "rank": 42,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14248,
+      "disease": 14806,
+      "degree": 658.0,
+      "rank": 129,
+      "n_candidates": 134
+    },
+    {
+      "compound": 14456,
+      "disease": 14804,
+      "degree": 579.0,
+      "rank": 3,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13492,
+      "disease": 14842,
+      "degree": 658.0,
+      "rank": 119,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13417,
+      "disease": 14784,
+      "degree": 392.0,
+      "rank": 127,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13549,
+      "disease": 14839,
+      "degree": 380.0,
+      "rank": 39,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13830,
+      "disease": 14841,
+      "degree": 28.0,
+      "rank": 102,
+      "n_candidates": 134
+    },
+    {
+      "compound": 14320,
+      "disease": 14764,
+      "degree": 232.0,
+      "rank": 17,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13349,
+      "disease": 14804,
+      "degree": 108.0,
+      "rank": 124,
+      "n_candidates": 132
+    },
+    {
+      "compound": 13603,
+      "disease": 14745,
+      "degree": 501.0,
+      "rank": 84,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13622,
+      "disease": 14739,
+      "degree": 257.0,
+      "rank": 3,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13987,
+      "disease": 14827,
+      "degree": 276.0,
+      "rank": 76,
+      "n_candidates": 128
+    },
+    {
+      "compound": 13658,
+      "disease": 14853,
+      "degree": 281.0,
+      "rank": 10,
+      "n_candidates": 126
+    },
+    {
+      "compound": 13514,
+      "disease": 14764,
+      "degree": 200.0,
+      "rank": 19,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14252,
+      "disease": 14850,
+      "degree": 681.0,
+      "rank": 92,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14505,
+      "disease": 14807,
+      "degree": 61.0,
+      "rank": 120,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13603,
+      "disease": 14842,
+      "degree": 501.0,
+      "rank": 9,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13179,
+      "disease": 14814,
+      "degree": 312.0,
+      "rank": 120,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13938,
+      "disease": 14764,
+      "degree": 209.0,
+      "rank": 17,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13492,
+      "disease": 14802,
+      "degree": 658.0,
+      "rank": 126,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14010,
+      "disease": 14812,
+      "degree": 206.0,
+      "rank": 34,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13581,
+      "disease": 14730,
+      "degree": 446.0,
+      "rank": 49,
+      "n_candidates": 131
+    },
+    {
+      "compound": 13287,
+      "disease": 14818,
+      "degree": 352.0,
+      "rank": 103,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13986,
+      "disease": 14792,
+      "degree": 23.0,
+      "rank": 18,
+      "n_candidates": 129
+    },
+    {
+      "compound": 14425,
+      "disease": 14839,
+      "degree": 18.0,
+      "rank": 13,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13778,
+      "disease": 14850,
+      "degree": 313.0,
+      "rank": 109,
+      "n_candidates": 130
+    },
+    {
+      "compound": 13603,
+      "disease": 14792,
+      "degree": 501.0,
+      "rank": 91,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13778,
+      "disease": 14854,
+      "degree": 313.0,
+      "rank": 18,
+      "n_candidates": 130
+    },
+    {
+      "compound": 14252,
+      "disease": 14815,
+      "degree": 681.0,
+      "rank": 42,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14041,
+      "disease": 14847,
+      "degree": 42.0,
+      "rank": 114,
+      "n_candidates": 136
+    },
+    {
+      "compound": 14252,
+      "disease": 14804,
+      "degree": 681.0,
+      "rank": 1,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14292,
+      "disease": 14807,
+      "degree": 68.0,
+      "rank": 1,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13517,
+      "disease": 14812,
+      "degree": 143.0,
+      "rank": 33,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13200,
+      "disease": 14850,
+      "degree": 176.0,
+      "rank": 134,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13622,
+      "disease": 14818,
+      "degree": 257.0,
+      "rank": 119,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13581,
+      "disease": 14823,
+      "degree": 446.0,
+      "rank": 27,
+      "n_candidates": 131
+    },
+    {
+      "compound": 13200,
+      "disease": 14749,
+      "degree": 176.0,
+      "rank": 135,
+      "n_candidates": 136
+    },
+    {
+      "compound": 14059,
+      "disease": 14847,
+      "degree": 71.0,
+      "rank": 108,
+      "n_candidates": 135
+    },
+    {
+      "compound": 14108,
+      "disease": 14785,
+      "degree": 225.0,
+      "rank": 32,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14252,
+      "disease": 14842,
+      "degree": 681.0,
+      "rank": 27,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13603,
+      "disease": 14809,
+      "degree": 501.0,
+      "rank": 114,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13492,
+      "disease": 14854,
+      "degree": 658.0,
+      "rank": 109,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14059,
+      "disease": 14804,
+      "degree": 71.0,
+      "rank": 44,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13450,
+      "disease": 14820,
+      "degree": 559.0,
+      "rank": 23,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13777,
+      "disease": 14817,
+      "degree": 437.0,
+      "rank": 26,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13721,
+      "disease": 14791,
+      "degree": 247.0,
+      "rank": 2,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14597,
+      "disease": 14735,
+      "degree": 157.0,
+      "rank": 22,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13993,
+      "disease": 14739,
+      "degree": 220.0,
+      "rank": 114,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13746,
+      "disease": 14839,
+      "degree": 246.0,
+      "rank": 63,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13853,
+      "disease": 14791,
+      "degree": 206.0,
+      "rank": 68,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13417,
+      "disease": 14773,
+      "degree": 392.0,
+      "rank": 133,
+      "n_candidates": 134
+    },
+    {
+      "compound": 14252,
+      "disease": 14827,
+      "degree": 681.0,
+      "rank": 127,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13987,
+      "disease": 14854,
+      "degree": 276.0,
+      "rank": 108,
+      "n_candidates": 128
+    },
+    {
+      "compound": 13628,
+      "disease": 14739,
+      "degree": 272.0,
+      "rank": 121,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14248,
+      "disease": 14784,
+      "degree": 658.0,
+      "rank": 113,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13603,
+      "disease": 14800,
+      "degree": 501.0,
+      "rank": 36,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13658,
+      "disease": 14807,
+      "degree": 281.0,
+      "rank": 1,
+      "n_candidates": 126
+    },
+    {
+      "compound": 13781,
+      "disease": 14807,
+      "degree": 71.0,
+      "rank": 29,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13778,
+      "disease": 14770,
+      "degree": 313.0,
+      "rank": 91,
+      "n_candidates": 130
+    },
+    {
+      "compound": 14283,
+      "disease": 14806,
+      "degree": 539.0,
+      "rank": 25,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13830,
+      "disease": 14842,
+      "degree": 28.0,
+      "rank": 116,
+      "n_candidates": 134
+    },
+    {
+      "compound": 14248,
+      "disease": 14803,
+      "degree": 658.0,
+      "rank": 133,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13332,
+      "disease": 14840,
+      "degree": 570.0,
+      "rank": 13,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13492,
+      "disease": 14847,
+      "degree": 658.0,
+      "rank": 37,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13987,
+      "disease": 14770,
+      "degree": 276.0,
+      "rank": 95,
+      "n_candidates": 128
+    },
+    {
+      "compound": 13603,
+      "disease": 14830,
+      "degree": 501.0,
+      "rank": 64,
+      "n_candidates": 119
+    },
+    {
+      "compound": 13665,
+      "disease": 14794,
+      "degree": 195.0,
+      "rank": 14,
+      "n_candidates": 136
+    },
+    {
+      "compound": 14406,
+      "disease": 14862,
+      "degree": 39.0,
+      "rank": 137,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13492,
+      "disease": 14815,
+      "degree": 658.0,
+      "rank": 2,
+      "n_candidates": 127
+    },
+    {
+      "compound": 14233,
+      "disease": 14785,
+      "degree": 49.0,
+      "rank": 117,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14032,
+      "disease": 14850,
+      "degree": 135.0,
+      "rank": 17,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13658,
+      "disease": 14802,
+      "degree": 281.0,
+      "rank": 109,
+      "n_candidates": 126
+    },
+    {
+      "compound": 14252,
+      "disease": 14847,
+      "degree": 681.0,
+      "rank": 30,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13987,
+      "disease": 14847,
+      "degree": 276.0,
+      "rank": 108,
+      "n_candidates": 128
+    },
+    {
+      "compound": 13332,
+      "disease": 14862,
+      "degree": 570.0,
+      "rank": 2,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13341,
+      "disease": 14749,
+      "degree": 194.0,
+      "rank": 51,
+      "n_candidates": 136
+    },
+    {
+      "compound": 13581,
+      "disease": 14756,
+      "degree": 446.0,
+      "rank": 23,
+      "n_candidates": 131
+    },
+    {
+      "compound": 13417,
+      "disease": 14803,
+      "degree": 392.0,
+      "rank": 134,
+      "n_candidates": 134
+    },
+    {
+      "compound": 13778,
+      "disease": 14847,
+      "degree": 313.0,
+      "rank": 109,
+      "n_candidates": 130
+    },
+    {
+      "compound": 13658,
+      "disease": 14860,
+      "degree": 281.0,
+      "rank": 75,
+      "n_candidates": 126
+    },
+    {
+      "compound": 13389,
+      "disease": 14807,
+      "degree": 215.0,
+      "rank": 135,
+      "n_candidates": 137
+    },
+    {
+      "compound": 14059,
+      "disease": 14848,
+      "degree": 71.0,
+      "rank": 130,
+      "n_candidates": 135
+    },
+    {
+      "compound": 13987,
+      "disease": 14802,
+      "degree": 276.0,
+      "rank": 122,
+      "n_candidates": 128
+    },
+    {
+      "compound": 14324,
+      "disease": 14791,
+      "degree": 64.0,
+      "rank": 2,
+      "n_candidates": 137
+    },
+    {
+      "compound": 13492,
+      "disease": 14807,
+      "degree": 658.0,
+      "rank": 5,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13581,
+      "disease": 14800,
+      "degree": 446.0,
+      "rank": 36,
+      "n_candidates": 131
+    },
+    {
+      "compound": 13517,
+      "disease": 14827,
+      "degree": 143.0,
+      "rank": 16,
+      "n_candidates": 135
+    },
+    {
+      "compound": 14252,
+      "disease": 14802,
+      "degree": 681.0,
+      "rank": 7,
+      "n_candidates": 127
+    },
+    {
+      "compound": 13341,
+      "disease": 14832,
+      "degree": 194.0,
+      "rank": 40,
+      "n_candidates": 136
+    }
+  ]
+}

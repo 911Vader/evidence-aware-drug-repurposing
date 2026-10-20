@@ -1,0 +1,13 @@
+=== Run: random_baseline_seed0_toy ===
+Loading toy_data/graph_toy.pt ...
+num_nodes=1137  disease_pool_size=137
+split=random  train_edges=194  test_edges=49
+  epoch   1/15  loss=0.6900  elapsed=2.1s
+  epoch   5/15  loss=0.5884  elapsed=2.3s
+  epoch  10/15  loss=0.5492  elapsed=2.4s
+  epoch  15/15  loss=0.5063  elapsed=2.5s
+Training done in 2.5s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS random_baseline_seed0_toy: {"auroc": 0.8166040442150887, "auprc": 0.07640184952690557, "n_eval": 49, "avg_candidates": 134.57142857142858, "hits@1": 0.14285714285714285, "hits@3": 0.1836734693877551, "hits@10": 0.42857142857142855}
+Saved results to results/random_baseline_seed0_toy.json
+Saved loss curve to figures/random_baseline_seed0_toy_loss.png

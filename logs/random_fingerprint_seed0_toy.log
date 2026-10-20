@@ -1,0 +1,13 @@
+=== Run: random_fingerprint_seed0_toy ===
+Loading toy_data/graph_toy.pt ...
+num_nodes=1137  disease_pool_size=137
+split=random  train_edges=194  test_edges=49
+  epoch   1/15  loss=0.7024  elapsed=0.1s
+  epoch   5/15  loss=0.6160  elapsed=0.2s
+  epoch  10/15  loss=0.5283  elapsed=0.4s
+  epoch  15/15  loss=0.4790  elapsed=0.6s
+Training done in 0.6s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS random_fingerprint_seed0_toy: {"auroc": 0.8203395643971875, "auprc": 0.1261510094154175, "n_eval": 49, "avg_candidates": 134.57142857142858, "hits@1": 0.16326530612244897, "hits@3": 0.32653061224489793, "hits@10": 0.6122448979591837}
+Saved results to results/random_fingerprint_seed0_toy.json
+Saved loss curve to figures/random_fingerprint_seed0_toy_loss.png

@@ -1,0 +1,20 @@
+=== Run: random_random_fingerprint_seed1 ===
+Loading data/processed/graph.pt ...
+num_nodes=47031  disease_pool_size=137
+split=random  train_edges=604  test_edges=151
+  epoch   1/50  loss=0.6955  elapsed=6.8s
+  epoch   5/50  loss=0.6345  elapsed=29.6s
+  epoch  10/50  loss=0.6057  elapsed=58.9s
+  epoch  15/50  loss=0.5893  elapsed=86.4s
+  epoch  20/50  loss=0.5778  elapsed=113.4s
+  epoch  25/50  loss=0.5315  elapsed=140.8s
+  epoch  30/50  loss=0.5284  elapsed=167.9s
+  epoch  35/50  loss=0.5180  elapsed=194.2s
+  epoch  40/50  loss=0.5111  elapsed=220.1s
+  epoch  45/50  loss=0.4992  elapsed=246.3s
+  epoch  50/50  loss=0.4771  elapsed=273.3s
+Training done in 273.3s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS random_random_fingerprint_seed1: {"auroc": 0.7935621813529761, "auprc": 0.10615828489591671, "n_eval": 151, "avg_candidates": 133.19205298013244, "hits@1": 0.23178807947019867, "hits@3": 0.3841059602649007, "hits@10": 0.6754966887417219}
+Saved results to results/random_random_fingerprint_seed1.json
+Saved loss curve to figures/random_random_fingerprint_seed1_loss.png

@@ -1,0 +1,22 @@
+=== Run: cold_start_adaptive_seed1 ===
+Loading data/processed/graph.pt ...
+num_nodes=47031  disease_pool_size=137
+split=cold_start  train_edges=551  test_edges=204
+  held-out compounds: 77
+  epoch   1/50  loss=0.6964  elapsed=5.3s
+  epoch   5/50  loss=0.6322  elapsed=23.0s
+  epoch  10/50  loss=0.5927  elapsed=43.1s
+  epoch  15/50  loss=0.5870  elapsed=63.5s
+  epoch  20/50  loss=0.5553  elapsed=83.4s
+  epoch  25/50  loss=0.5205  elapsed=101.6s
+  epoch  30/50  loss=0.4979  elapsed=120.7s
+  epoch  35/50  loss=0.4844  elapsed=139.2s
+  epoch  40/50  loss=0.4653  elapsed=157.8s
+  epoch  45/50  loss=0.4701  elapsed=176.7s
+  epoch  50/50  loss=0.4509  elapsed=197.2s
+Training done in 197.2s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS cold_start_adaptive_seed1: {"auroc": 0.8450656823703259, "auprc": 0.11796753454832201, "n_eval": 204, "avg_candidates": 131.48039215686273, "hits@1": 0.2107843137254902, "hits@3": 0.5196078431372549, "hits@10": 0.7205882352941176}
+  learned gate: a=0.3372 b=0.0392 (g=0.5 at degree=-0.1)
+Saved results to results/cold_start_adaptive_seed1.json
+Saved loss curve to figures/cold_start_adaptive_seed1_loss.png

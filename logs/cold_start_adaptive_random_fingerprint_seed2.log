@@ -1,0 +1,22 @@
+=== Run: cold_start_adaptive_random_fingerprint_seed2 ===
+Loading data/processed/graph.pt ...
+num_nodes=47031  disease_pool_size=137
+split=cold_start  train_edges=551  test_edges=204
+  held-out compounds: 77
+  epoch   1/50  loss=0.6970  elapsed=4.6s
+  epoch   5/50  loss=0.5981  elapsed=21.3s
+  epoch  10/50  loss=0.5665  elapsed=41.3s
+  epoch  15/50  loss=0.5409  elapsed=61.3s
+  epoch  20/50  loss=0.4979  elapsed=81.2s
+  epoch  25/50  loss=0.4767  elapsed=101.5s
+  epoch  30/50  loss=0.4752  elapsed=121.3s
+  epoch  35/50  loss=0.4748  elapsed=141.7s
+  epoch  40/50  loss=0.4364  elapsed=161.9s
+  epoch  45/50  loss=0.4459  elapsed=182.4s
+  epoch  50/50  loss=0.4474  elapsed=203.2s
+Training done in 203.2s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS cold_start_adaptive_random_fingerprint_seed2: {"auroc": 0.8334454865423516, "auprc": 0.10961022609762328, "n_eval": 204, "avg_candidates": 131.48039215686273, "hits@1": 0.1568627450980392, "hits@3": 0.37254901960784315, "hits@10": 0.6372549019607843}
+  learned gate: a=0.3522 b=0.0574 (g=0.5 at degree=-0.2)
+Saved results to results/cold_start_adaptive_random_fingerprint_seed2.json
+Saved loss curve to figures/cold_start_adaptive_random_fingerprint_seed2_loss.png

@@ -1,0 +1,14 @@
+=== Run: random_adaptive_seed0_toy ===
+Loading toy_data/graph_toy.pt ...
+num_nodes=1137  disease_pool_size=137
+split=random  train_edges=194  test_edges=49
+  epoch   1/15  loss=0.6950  elapsed=0.0s
+  epoch   5/15  loss=0.5939  elapsed=0.2s
+  epoch  10/15  loss=0.5384  elapsed=0.4s
+  epoch  15/15  loss=0.4629  elapsed=0.5s
+Training done in 0.5s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS random_adaptive_seed0_toy: {"auroc": 0.7408147674654278, "auprc": 0.059614594837958605, "n_eval": 49, "avg_candidates": 134.57142857142858, "hits@1": 0.1836734693877551, "hits@3": 0.2857142857142857, "hits@10": 0.4897959183673469}
+  learned gate: a=0.3026 b=-0.0019 (g=0.5 at degree=0.0)
+Saved results to results/random_adaptive_seed0_toy.json
+Saved loss curve to figures/random_adaptive_seed0_toy_loss.png

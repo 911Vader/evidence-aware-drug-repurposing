@@ -1,0 +1,21 @@
+=== Run: cold_start_baseline_seed1_nognn ===
+Loading data/processed/graph.pt ...
+num_nodes=47031  disease_pool_size=137
+split=cold_start  train_edges=551  test_edges=204
+  held-out compounds: 77
+  epoch   1/50  loss=0.6931  elapsed=0.0s
+  epoch   5/50  loss=0.6885  elapsed=0.1s
+  epoch  10/50  loss=0.6649  elapsed=0.3s
+  epoch  15/50  loss=0.6127  elapsed=0.4s
+  epoch  20/50  loss=0.5355  elapsed=0.4s
+  epoch  25/50  loss=0.4429  elapsed=0.5s
+  epoch  30/50  loss=0.3724  elapsed=0.6s
+  epoch  35/50  loss=0.3068  elapsed=0.7s
+  epoch  40/50  loss=0.2642  elapsed=0.8s
+  epoch  45/50  loss=0.2291  elapsed=0.8s
+  epoch  50/50  loss=0.1868  elapsed=0.9s
+Training done in 0.9s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS cold_start_baseline_seed1_nognn: {"auroc": 0.45632028451924767, "auprc": 0.007052421752049831, "n_eval": 204, "avg_candidates": 131.48039215686273, "hits@1": 0.00980392156862745, "hits@3": 0.05392156862745098, "hits@10": 0.16176470588235295}
+Saved results to results/cold_start_baseline_seed1_nognn.json
+Saved loss curve to figures/cold_start_baseline_seed1_nognn_loss.png

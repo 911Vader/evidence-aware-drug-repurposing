@@ -1,0 +1,20 @@
+=== Run: random_baseline_seed1_nognn ===
+Loading data/processed/graph.pt ...
+num_nodes=47031  disease_pool_size=137
+split=random  train_edges=604  test_edges=151
+  epoch   1/50  loss=0.6931  elapsed=0.1s
+  epoch   5/50  loss=0.6885  elapsed=0.2s
+  epoch  10/50  loss=0.6640  elapsed=0.3s
+  epoch  15/50  loss=0.6108  elapsed=0.5s
+  epoch  20/50  loss=0.5336  elapsed=0.6s
+  epoch  25/50  loss=0.4399  elapsed=0.7s
+  epoch  30/50  loss=0.3698  elapsed=0.8s
+  epoch  35/50  loss=0.3195  elapsed=0.9s
+  epoch  40/50  loss=0.2646  elapsed=1.0s
+  epoch  45/50  loss=0.2308  elapsed=1.0s
+  epoch  50/50  loss=0.1904  elapsed=1.1s
+Training done in 1.1s
+Evaluating on test split (ranked against ALL eligible diseases)...
+RESULTS random_baseline_seed1_nognn: {"auroc": 0.8341514297250501, "auprc": 0.14540451881051045, "n_eval": 151, "avg_candidates": 133.19205298013244, "hits@1": 0.18543046357615894, "hits@3": 0.33112582781456956, "hits@10": 0.5231788079470199}
+Saved results to results/random_baseline_seed1_nognn.json
+Saved loss curve to figures/random_baseline_seed1_nognn_loss.png
